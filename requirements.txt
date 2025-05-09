@@ -1,0 +1,14 @@
+# FastAPI Backend Dependencies
+fastapi>=0.100.0 # Or a specific version you've been using
+uvicorn[standard]>=0.23.0 # [standard] includes httptools and uvloop for performance
+requests>=2.30.0
+watchdog>=3.0.0
+
+# Streamlit Frontend Dependencies
+streamlit>=1.25.0 # Or a specific version you've been using
+
+# Optional, but good for consistency and development:
+# python-dotenv # If you plan to use .env files for configuration (though you use config.json)
+# black         # Code formatter
+# flake8        # Linter
+# pytest        # For testing (if you add tests)
