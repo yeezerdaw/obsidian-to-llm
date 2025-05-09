@@ -1,0 +1,28 @@
+{
+  "vault_path": "/path/to/your/obsidian/vault_or_placeholder",
+  "api_host": "0.0.0.0",
+  "api_port": 8000,
+  "api_reload": true,
+  "log_level": "INFO",
+  "min_processing_length": 25,
+  "llmstudio": {
+    "api_url": "http://localhost:1234/v1/chat/completions",
+    "model": "your-llm-model-name",
+    "context_window": 4000,
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "timeout": 120
+  },
+  "response_folder": "🤖 SecondBrain_Responses_Example",
+  "daily_notes": {
+    "enabled": true,
+    "folder": "Journal/Daily_Logs_Example",
+    // ... other daily notes settings ...
+  },
+  "system_prompt": "You are an AI second brain...",
+  "excluded_folders": [".obsidian", "Templates"],
+  "watchdog": {
+    "enabled": false, // Default to false for contributors not wanting to run it
+    "debounce_seconds": 5.0
+  }
+}
