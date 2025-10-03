@@ -1,4 +1,4 @@
-# ObsidianGPT ✨🧠
+# ObsidianGPT 🧠
 
 **ObsidianGPT is an AI-powered assistant designed to supercharge your Obsidian vault, providing intelligent analysis, querying, and content generation capabilities directly within a user-friendly web interface.**
 
